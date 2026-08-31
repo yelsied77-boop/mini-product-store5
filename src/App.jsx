@@ -140,6 +140,7 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import ProductsSection from "./Components/ProductsSection";
 
+
 function App() {
   return (
     <>
