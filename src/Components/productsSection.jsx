@@ -12,6 +12,8 @@ function ProductsSection() {
       price: 999,
     },
     {
+
+      
       id: 2,
       image:
         "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
