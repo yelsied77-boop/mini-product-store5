@@ -270,11 +270,14 @@ body {
 .price {
   font-size: 21px;
   font-weight: bold;
+
+
+
 }
 
 .product-bottom button {
   border: none;
-  background-color: #2563eb;
+  background-color: #28344d;
   color: white;
   padding: 10px 15px;
   border-radius: 7px;
