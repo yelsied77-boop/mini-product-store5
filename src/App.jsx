@@ -136,9 +136,9 @@
 // export default App;
 
 
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import ProductsSection from "./components/ProductsSection";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import ProductsSection from "./Components/ProductsSection";
 
 function App() {
   return (
