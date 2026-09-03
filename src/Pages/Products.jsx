@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
-import ProductsSection from "../components/ProductsSection";
-import ProductForm from "../components/ProductForm";
+import ProductsSection from "../Components/ProductsSection";
+import ProductForm from "../Components/ProductForm";
 
 const defaultProducts = [
   {
