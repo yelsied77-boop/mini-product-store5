@@ -1,11 +1,19 @@
+import { Link } from "react-router-dom";
+
 function Hero() {
   return (
-    <section className="hero" id="home">
-      <h1>Welcome to MiniStore</h1>
+    <section className="hero">
+      <div className="hero-content">
+        <h1>Discover Our Products</h1>
 
-      <p>Discover amazing products at great prices.</p>
+        <p>
+          Find the best products at the best prices.
+        </p>
 
-      <button>Shop Now</button>
+        <Link to="/products" className="hero-button">
+          Shop Now
+        </Link>
+      </div>
     </section>
   );
 }

@@ -1,22 +1,40 @@
-function ProductCard({ image, category, title, description, price }) {
+function ProductCard({ product, onDelete }) {
   return (
-    <div className="product-card">
-      <img src={image} alt={title} />
+    <article className="product-card">
+      <img
+        src={product.image}
+        alt={product.title}
+        className="product-image"
+      />
 
-      <div className="product-info">
-        <span className="category">{category}</span>
+      <div className="product-content">
+        <span className="product-category">
+          {product.category}
+        </span>
 
-        <h3>{title}</h3>
+        <h3>{product.title}</h3>
 
-        <p>{description}</p>
+        <p>{product.description}</p>
 
         <div className="product-bottom">
-          <span className="price">${price}</span>
+          <strong>{product.price}</strong>
 
-          <button>View Details</button>
+          <div className="product-actions">
+            <button type="button" className="view-button">
+              View Details
+            </button>
+
+            <button
+              type="button"
+              className="delete-button"
+              onClick={() => onDelete(product.id)}
+            >
+              Delete
+            </button>
+          </div>
         </div>
       </div>
-    </div>
+    </article>
   );
 }
 
